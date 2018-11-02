@@ -13,7 +13,9 @@
 <br>
 <h2>Here are all our users:</h2>
 <c:forEach items="${users}" var="user">
-    <p>Name: ${user.name} | Password: ${user.password}</p>
+    <p>Name: ${user.name} | Password: ${user.password} | Gender: ${user.gender}</p>
 </c:forEach>
+<a href="/allusers/male">Male</a>
+<a href="/allusers/female">Female</a>
 </body>
 </html>
